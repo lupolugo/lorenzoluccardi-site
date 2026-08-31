@@ -1,9 +1,9 @@
 main:
-- title: "Articoli"
-url: /articoli/
-- title: "Commenti"
-url: /commenti/
-- title: "Libri"
-url: /libri/
-- title: "Whishlist"
-url: /whishlist/
+  - title: "Articoli"
+    url: /articoli/
+  - title: "Commenti"
+    url: /commenti/
+  - title: "Libri"
+    url: /libri/
+  - title: "Wishlist"
+    url: /wishlist/

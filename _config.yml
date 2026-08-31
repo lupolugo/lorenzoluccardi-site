@@ -1,2 +1,22 @@
-theme: minima
-title: My Site
+title: Lorenzo Luccardi
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
+minimal_mistakes_skin: "dark"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-feed
+
+collections:
+  articoli:
+    output: true
+    permalink: /articoli/:path/
+  commenti:
+    output: true
+    permalink: /commenti/:path/
+  libri:
+    output: true
+    permalink: /libri/:path/
+  wishlist:
+    output: true
+    permalink: /wishlist/:path/

@@ -3,7 +3,7 @@ main:
 url: /articoli/
 - title: "Commenti"
 url: /commenti/
--title: "Libri"
+- title: "Libri"
 url: /libri/
--title: "Whishlist"
+- title: "Whishlist"
 url: /whishlist/

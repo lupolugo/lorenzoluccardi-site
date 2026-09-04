@@ -1,7 +1,7 @@
 ---
-title: "Articoli di giornale"
+title: "Commenti"
 layout: single
-permalink: /articoli/
+permalink: /commenti/
 ---
 {% for item in site.articoli %}
 ### [{{ item.title }}]({{ item.url }})

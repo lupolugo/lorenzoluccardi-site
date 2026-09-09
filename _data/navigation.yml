@@ -7,5 +7,5 @@ main:
     url: "/libri/"
   - title: "Wishlist"
     url: "/wishlist/"
-  - title: "Wishlist"
+  - title: "Test Wishlist"
     url: "/test-wishlist/"

@@ -8,6 +8,7 @@ permalink: /wishlist/
 {{ item.excerpt }}
 {% endfor %}
 
+
 <!DOCTYPE html>
 <html lang="it">
 <head>

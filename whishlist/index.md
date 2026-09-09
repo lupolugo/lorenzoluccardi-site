@@ -7,3 +7,234 @@ permalink: /wishlist/
 ### [{{ item.title }}]({{ item.url }})
 {{ item.excerpt }}
 {% endfor %}
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Mia Wishlist Amazon</title>
+    <style>
+        :root {
+            --amazon-orange: #FF9900;
+            --amazon-dark: #131921;
+            --amazon-light-bg: #EAEDED;
+            --text-color: #0F1111;
+            --border-color: #DDD;
+        }
+
+        body {
+            font-family: "Amazon Ember", Arial, sans-serif;
+            background-color: var(--amazon-light-bg);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--amazon-dark);
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .wishlist-info {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .wishlist-info h2 {
+            margin-top: 0;
+            color: var(--amazon-dark);
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .product-card {
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #B12704;
+            color: white;
+            padding: 4px 8px;
+            font-size: 11px;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+
+        .badge.low {
+            background-color: #565959;
+        }
+
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+            margin-bottom: 15px;
+        }
+
+        .product-title {
+            font-size: 16px;
+            font-weight: 700;
+            margin: 0 0 10px 0;
+            line-height: 1.3;
+            height: 42px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+
+        .product-price {
+            font-size: 21px;
+            color: #B12704;
+            font-weight: 500;
+            margin: 10px 0;
+        }
+
+        .product-desc {
+            font-size: 13px;
+            color: #565959;
+            margin-bottom: 15px;
+            height: 36px;
+            overflow: hidden;
+        }
+
+        .amazon-btn {
+            background-color: #FFD814;
+            border: 1px solid #FCD200;
+            border-radius: 20px;
+            color: #0F1111;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 14px;
+            display: block;
+            font-weight: 500;
+            box-shadow: 0 2px 5px rgba(213,217,217,.5);
+            transition: background-color 0.2s;
+        }
+
+        .amazon-btn:hover {
+            background-color: #F7CA00;
+            border-color: #F2C200;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+            font-size: 13px;
+            color: #565959;
+            border-top: 1px solid var(--border-color);
+            background: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Wishlist Personale</h1>
+        <span>Idee Regalo & Desideri</span>
+    </header>
+
+    <div class="container">
+        
+        <!-- Info Generiche della Wishlist -->
+        <div class="wishlist-info">
+            <h2>La mia lista dei desideri 🌟</h2>
+            <p>Benvenuto nella mia pagina statica dei desideri. Clicca sui pulsanti gialli per visualizzare direttamente i prodotti e ordinarli su Amazon.</p>
+        </div>
+
+        <!-- Griglia dei Prodotti -->
+        <div class="products-grid">
+
+            <!-- Prodotto 1 -->
+            <div class="product-card">
+                <span class="badge">Priorità Alta</span>
+                <!-- Inserisci qui l'URL dell'immagine del prodotto -->
+                <img class="product-image" src="https://placeholder.com" alt="Nome Prodotto 1">
+                <div>
+                    <h3 class="product-title">Esempio Prodotto Amazon 1 - Titolo Dettagliato dell'Oggetto</h3>
+                    <p class="product-desc">Breve nota o descrizione personalizzata per spiegare perché desideri questo oggetto.</p>
+                </div>
+                <div>
+                    <div class="product-price">29,99 €</div>
+                    <!-- Sostituisci il cancelletto '#' con il link reale del tuo prodotto Amazon -->
+                    <a href="#" target="_blank" class="amazon-btn">Vedi su Amazon</a>
+                </div>
+            </div>
+
+            <!-- Prodotto 2 -->
+            <div class="product-card">
+                <span class="badge low">Priorità Bassa</span>
+                <img class="product-image" src="https://placeholder.com" alt="Nome Prodotto 2">
+                <div>
+                    <h3 class="product-title">Esempio Prodotto Amazon 2 - Secondo Oggetto in Lista</h3>
+                    <p class="product-desc">Nota aggiuntiva (es. colore preferito o taglia specifica).</p>
+                </div>
+                <div>
+                    <div class="product-price">89,00 €</div>
+                    <a href="#" target="_blank" class="amazon-btn">Vedi su Amazon</a>
+                </div>
+            </div>
+
+            <!-- Prodotto 3 -->
+            <div class="product-card">
+                <img class="product-image" src="https://placeholder.com" alt="Nome Prodotto 3">
+                <div>
+                    <h3 class="product-title">Esempio Prodotto Amazon 3 - Terzo Prodotto senza badge priorità</h3>
+                    <p class="product-desc">Puoi duplicare questi blocchi di codice per aggiungere tutti i prodotti che desideri.</p>
+                </div>
+                <div>
+                    <div class="product-price">15,50 €</div>
+                    <a href="#" target="_blank" class="amazon-btn">Vedi su Amazon</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>Questa è una pagina web statica indipendente. I marchi e i link appartengono ai rispettivi proprietari.</p>
+    </footer>
+
+</body>
+</html>

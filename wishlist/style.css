@@ -17,7 +17,7 @@
 
         header {
             background-color: var(--amazon-dark);
-            color: white;
+            /* color: white; */
             padding: 15px 20px;
             display: flex;
             align-items: center;
@@ -76,7 +76,7 @@
             top: 10px;
             right: 10px;
             background-color: #B12704;
-            color: white;
+            /* color: white; */
             padding: 4px 8px;
             font-size: 11px;
             font-weight: bold;

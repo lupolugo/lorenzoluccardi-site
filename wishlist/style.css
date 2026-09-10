@@ -9,7 +9,7 @@
 
         body {
             font-family: "Amazon Ember", Arial, sans-serif;
-            background-color: var(--amazon-light-bg);
+            /* background-color: var(--amazon-light-bg); */
             color: var(--text-color);
             margin: 0;
             padding: 0;
@@ -31,12 +31,12 @@
 
         .container {
             max-width: 1200px;
-            margin: 30px auto;
+            margin: auto;
             padding: 0 20px;
         }
 
         .wishlist-info {
-            background: white;
+            /* background: white; */
             padding: 20px;
             border-radius: 8px;
             margin-bottom: 20px;
@@ -55,7 +55,7 @@
         }
 
         .product-card {
-            background: white;
+            /* background: white; */
             border: 1px solid var(--border-color);
             border-radius: 8px;
             padding: 20px;

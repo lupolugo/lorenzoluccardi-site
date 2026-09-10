@@ -30,7 +30,7 @@
         }
 
         .container {
-            max-width: 1200px;
+            max-width: auto;
             margin: auto;
             padding: 0 20px;
         }
@@ -38,6 +38,7 @@
         .wishlist-info {
             /* background: white; */
             padding: 20px;
+            color: #ffffff;
             border-radius: 8px;
             margin-bottom: 20px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);

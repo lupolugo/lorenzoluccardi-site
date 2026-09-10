@@ -1,5 +1,5 @@
 ---
-title: "Wishlist"
+title: "Old Wishlist"
 layout: single
 permalink: /old-wishlist/
 ---

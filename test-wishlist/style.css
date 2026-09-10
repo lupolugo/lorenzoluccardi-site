@@ -102,7 +102,6 @@
             height: 42px;
             overflow: hidden;
             display: -webkit-box;
-            -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
         }
 
@@ -141,13 +140,13 @@
             border-color: #F2C200;
         }
 
-        /* footer {
+        footer {
             text-align: center;
             padding: 30px;
             margin-top: 40px;
             font-size: 13px;
             color: #565959;
             border-top: 1px solid var(--border-color);
-            background: white;
+            background: rgb(179, 46, 46);
         }
-  */
+ 

@@ -19,7 +19,7 @@ collections:
     permalink: /libri/:path/
   wishlist:
     output: true
-    permalink: /wishlist/:path/
+    permalink: /wishlist/index.html/
   test-wishlist:
     output: true
-    permalink: /test-wishlist/index.html/
+    permalink: /old-wishlist/:path/

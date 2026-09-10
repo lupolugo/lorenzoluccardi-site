@@ -1,9 +1,9 @@
 ---
 title: "Wishlist"
 layout: single
-permalink: /wishlist/
+permalink: /old-wishlist/
 ---
-{% for item in site.wishlist %}
+{% for item in site.old-wishlist %}
 ### [{{ item.title }}]({{ item.url }})
 {{ item.excerpt }}
 {% endfor %}

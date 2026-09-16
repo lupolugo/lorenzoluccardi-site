@@ -16,8 +16,6 @@
         }
         /* NASCONDO header PER whishlist */
         header {
-            /*background-color: var(--amazon-dark);*/
-            /* color: white; */
             padding: 15px 20px;
             display: none;
             align-items: center;

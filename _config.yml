@@ -20,6 +20,6 @@ collections:
   wishlist:
     output: true
     permalink: /wishlist/index.html/
-  test-wishlist:
-    output: true
-    permalink: /old-wishlist/:path/
+  # test-wishlist:
+  #   output: true
+  #   permalink: /old-wishlist/:path/

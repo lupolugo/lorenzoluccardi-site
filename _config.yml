@@ -16,7 +16,7 @@ collections:
     permalink: /commenti/:path/
   libri:
     output: true
-    permalink: /libri/:path/
+    permalink: /libri/index.html/
   wishlist:
     output: true
     permalink: /wishlist/index.html/

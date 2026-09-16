@@ -33,7 +33,6 @@
             max-width: auto;
             margin: auto;
             padding: 0 20px;
-            color: #ffffff;
         }
 
         .wishlist-info {
@@ -53,7 +52,7 @@
         .products-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 20px;
+            gap: 5px;
         }
 
         .product-card {

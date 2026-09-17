@@ -1,6 +1,6 @@
 ---
 layout: home
 title: Home
-share: true
+classes: wide
 ---
 Benvenuto nel mio sito
